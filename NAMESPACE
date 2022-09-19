@@ -2,6 +2,7 @@
 
 export(osrmIsochrone)
 export(osrmIsometric)
+export(osrmNearest)
 export(osrmRoute)
 export(osrmTable)
 export(osrmTrip)
