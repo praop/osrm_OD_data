@@ -19,6 +19,7 @@ library(GISTools)
 library(rgdal)
 ```
 Setting working directory
+
 path: "C:/.../data_folder"
 ```{r}
 setwd("C:/.../data_folder") #edit data_folder and path as per your data structure
