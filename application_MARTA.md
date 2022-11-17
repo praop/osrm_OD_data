@@ -64,5 +64,6 @@ fp=file.path("C:/.../data_folder") #edit data_folder and path as per your data s
 writeOGR(route_path, fp, layer="route", driver="ESRI Shapefile", verbose=TRUE) #edit file name as per your needs
 ```
 
-##Project report of results
+Project report of results:
+
 https://smartech.gatech.edu/handle/1853/59992
