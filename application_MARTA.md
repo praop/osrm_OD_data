@@ -26,13 +26,21 @@ setwd("C:/.../data_folder") #edit data_folder and path as per your data structur
 getwd()
 ```
 Loading data with geographic information (latitude and longitude)
+
 csv name: MARTA_BusRail_id.csv
+
 df name: marta_rail_bus
+
 unique id for each trip: u_id
+
 origin/boarding latitude column: on_lat
+
 origin longitude/boarding column: on_lon
+
 destination/deboarding latitude column: off_lat
+
 destination/deboarding longitude column: off_lon
+
 ```{r}
 marta_rail_bus<-read.csv(file="MARTA_BusRail_id.csv",header=TRUE,sep=",") #edit file name as per your needs
 ```
